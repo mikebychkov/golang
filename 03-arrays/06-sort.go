@@ -57,7 +57,7 @@ func validate(a []string) (error) {
     for _, v := range a {
         _, err := strconv.Atoi(v)
         if err != nil {
-            return fmt.Errorf("Parsing error %s to integer", v)
+            return fmt.Errorf("Parsing error \"%s\" to integer", v)
         }
     }
 

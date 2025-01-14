@@ -23,4 +23,10 @@ func main() {
     arr4 = arr1
     // arr3 = arr1 // cannot be assigned
     fmt.Printf("%#v , %#v , %#v\n", arr1, arr2, arr4)
+
+    multi := [2][3]int {
+        [3]int {4,6,3},
+        [3]int {2,3,1},
+    }
+    fmt.Printf("%#v\n", multi)
 }
